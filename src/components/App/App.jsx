@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
+import { lazy } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import { Layout } from '../../components';
 import './App.css';
 
-export function App() {
-  // const [count, setCount] = useState(0);
+const Home = lazy(() => import('../../pages/Home/Home'));
+const Tweets = lazy(() => import('../../pages/Tweets/Tweets'));
 
+export function App() {
   return (
-    <>
-      <h1>App</h1>
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="tweets" element={<Tweets />} />
+        <Route path="*" element={<Home />} />
+      </Route>
+    </Routes>
   );
 }
