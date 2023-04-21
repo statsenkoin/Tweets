@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h2 className="read-the-docs">Vite-React-Template</h2>
+        <h2 className="read-the-docs">Vite-React-Template!!!</h2>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
