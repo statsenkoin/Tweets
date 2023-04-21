@@ -1,0 +1,1 @@
+import{u as e,j as t,L as n}from"./index-bbaaba42.js";function c(){var o;const s=((o=e().state)==null?void 0:o.from)??"/";return t.jsxs(t.Fragment,{children:["Tweets",t.jsx(n,{to:s,children:"Back to products"})]})}export{c as default};
