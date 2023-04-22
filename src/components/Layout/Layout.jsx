@@ -7,7 +7,7 @@ export function Layout() {
       <header>
         <nav>
           <Link to="/">Home</Link>
-          <Link to="/tweets">Tweets</Link>
+          <Link to="/alltweets">Tweets</Link>
         </nav>
       </header>
       <Suspense fallback={<div>Loading page...</div>}>
