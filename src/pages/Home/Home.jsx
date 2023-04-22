@@ -4,7 +4,7 @@ export default function Home() {
   const location = useLocation();
   return (
     <>
-      <Link to="/tweets" state={{ from: location }}>
+      <Link to="/alltweets" state={{ from: location }}>
         Home
       </Link>
     </>
